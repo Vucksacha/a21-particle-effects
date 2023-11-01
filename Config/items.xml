@@ -12,6 +12,7 @@
 			</property>
 		</item>
 
+		<!-- Right Hand -->
 		<item name="vuxParticle-burntZombieSmoke">
 			<property name="Extends" value="vuxParticleMaster"/>
 			<effect_group name="Display">
@@ -1776,5 +1777,1771 @@
 			</effect_group>
 		</item>
 
+		<!-- Head -->
+
+
+		<item name="vuxParticleHead-burntZombieSmoke">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/burntZombieSmoke" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-light_bullet_impact">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/light_bullet_impact" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-MinibikeParticles">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/MinibikeParticles" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_big_smoke">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_big_smoke" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_boulder">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_boulder" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_cloth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_cloth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_earth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_earth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_glass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_glass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_metal">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_metal" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_organic">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_organic" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_plant">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_plant" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_snow">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_snow" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_stone">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_stone" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_water">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_water" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_wood">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_wood" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_xt_leaves1">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_xt_leaves1" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_xt_leaves2">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_xt_leaves2" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_xt_leaves3">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_xt_leaves3" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blockdestroy_xt_tallgrass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blockdestroy_xt_tallgrass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blood_death">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blood_death" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blood_decapitation">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blood_decapitation" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_blood_impact">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_blood_impact" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_breath">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_breath" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_breath_thirdperson">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_breath_thirdperson" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_burning_barrel">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_burning_barrel" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_campfire">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_campfire" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_candleWall_flame">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_candleWall_flame" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_candle_flame">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_candle_flame" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_chemistryStation">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_chemistryStation" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_critical">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_critical" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_distanceTest">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_distanceTest" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_electric_fence_sparks">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_electric_fence_sparks" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_electric_shock">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_electric_shock" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_fat_cop_explosion">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_fat_cop_explosion" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_fire_small">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_fire_small" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_forge">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_forge" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_generator">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_generator" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_hotembers">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_hotembers" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_hotembersZombie">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_hotembersZombie" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_cloth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_cloth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_earth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_earth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_glass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_glass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_metal">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_metal" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_organic">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_organic" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_plant">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_plant" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_snow">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_snow" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_stone">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_stone" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_water">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_water" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_wood">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_wood" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_bullet_on_xt_tallgrass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_bullet_on_xt_tallgrass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_cloth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_cloth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_earth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_earth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_glass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_glass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_metal">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_metal" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_metal_harvest">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_metal_harvest" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_metal_repair">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_metal_repair" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_organic">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_organic" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_plant">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_plant" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_snow">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_snow" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_stone">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_stone" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_water">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_water" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_wood">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_wood" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_metal_on_xt_tallgrass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_metal_on_xt_tallgrass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_cloth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_cloth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_earth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_earth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_glass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_glass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_metal">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_metal" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_organic">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_organic" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_plant">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_plant" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_snow">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_snow" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_stone">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_stone" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_water">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_water" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_wood">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_wood" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_organic_on_xt_tallgrass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_organic_on_xt_tallgrass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_cloth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_cloth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_earth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_earth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_glass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_glass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_metal">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_metal" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_organic">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_organic" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_plant">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_plant" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_snow">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_snow" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_stone">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_stone" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_water">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_water" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_wood">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_wood" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_stone_on_xt_tallgrass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_stone_on_xt_tallgrass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_cloth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_cloth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_earth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_earth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_glass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_glass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_metal">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_metal" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_organic">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_organic" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_plant">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_plant" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_snow">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_snow" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_stone">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_stone" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_water">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_water" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_wood">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_wood" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_impact_wood_on_xt_tallgrass">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_impact_wood_on_xt_tallgrass" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nailgunfire">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nailgunfire" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzleflash">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzleflash" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzleflashuzi">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzleflashuzi" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzleflash_ak">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzleflash_ak" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzleflash_m136">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzleflash_m136" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzleflash_shotgun">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzleflash_shotgun" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzlesmoke">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzlesmoke" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzlesmokeuzi">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzlesmokeuzi" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzlesmoke_chainsaw">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzlesmoke_chainsaw" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_nozzlesmoke_m136">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_nozzlesmoke_m136" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_onFire">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_onFire" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_paint_block">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_paint_block" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_paint_splash">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_paint_splash" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_paint_splash2">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_paint_splash2" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_rocketLauncherFire">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_rocketLauncherFire" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_sandstorm">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_sandstorm" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_signal_flarePrefab">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_signal_flarePrefab" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_smoke">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_smoke" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_smokestorm">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_smokestorm" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_snowstorm1">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_snowstorm1" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_supply_crate_gib_Prefab">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_supply_crate_gib_Prefab" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_supply_crate_impact">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_supply_crate_impact" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_tiresmoke">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_tiresmoke" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_torch_wall">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_torch_wall" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treefall">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treefall" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_birch">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_birch" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_birch_15m">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_birch_15m" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_birch_6m">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_birch_6m" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_birch_small">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_birch_small" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_burnt">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_burnt" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_burnt_55m">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_burnt_55m" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_burnt_75m">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_burnt_75m" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_burnt_small">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_burnt_small" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_dead_01">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_dead_01" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_dead_02">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_dead_02" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_maple_13m">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_maple_13m" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_maple_15m">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_maple_15m" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_maple_17m">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_maple_17m" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_sapling">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_sapling" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_small_dust">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_small_dust" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_winter01">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_winter01" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_winter02">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_winter02" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_winter03">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_winter03" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_treeGib_winter_small">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_treeGib_winter_small" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_vomitMouth">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_vomitMouth" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_wire_tool_dust">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_wire_tool_dust" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_wire_tool_sparks">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_wire_tool_sparks" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-RadiatedParticlesOnMesh">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/RadiatedParticlesOnMesh" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-Smoke_Unlit">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/Smoke_Unlit" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_twitch_zombie_radiation_left">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_twitch_zombie_radiation_left" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
+
+		<item name="vuxParticleHead-p_twitch_zombie_radiation_right">
+			<property name="Extends" value="vuxParticleMaster"/>
+			<effect_group name="Display">
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="AddPart" part="Head" prefab="ParticleEffects/p_twitch_zombie_radiation_right" parentTransform="Head" localPos="0,0,0" localRot="0,0,0"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="false" transform_path="crossbow_mesh"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Head"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="ProjectileJoint"/>
+				<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="true" transform_path="crossbow_mesh"/>
+			</effect_group>
+		</item>
 	</append>
 </Vux>
