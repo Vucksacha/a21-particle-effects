@@ -1,7 +1,7 @@
 # a21-particle-effects
- 
-This is the regex
-([p_[0-9a-z]*).prefab
+ This is the regex<br />
+Find: ([p_[0-9a-z]*).prefab<br />
+Replace:<br />
 <item name="vuxParticle-$1">
 			<property name="Extends" value="vuxParticleMaster" param1="DescriptionKey"/>
 			<effect_group name="Display">
